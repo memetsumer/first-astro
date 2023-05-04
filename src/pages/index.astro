@@ -1,4 +1,6 @@
 ---
+import Counter from "../components/Counter";
+import CounterSolid from "../components/CounterSolid";
 import Layout from "../layouts/Layout.astro";
 ---
 
@@ -8,5 +10,7 @@ import Layout from "../layouts/Layout.astro";
       To get started, open theasfdasf directory <code>d/pages</code> in your project.<br
       />
     </p>
+    <Counter client:load />
+    <CounterSolid client:load />
   </main>
 </Layout>
